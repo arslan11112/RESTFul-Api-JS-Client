@@ -1,0 +1,60 @@
+@charset "ISO-8859-1";
+
+table {
+	border-collapse: collapse;
+	font-family: Tahoma, Geneva, sans-serif;
+	border: 1px solid black;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+table td {
+	padding: 15px;
+}
+
+table thead td {
+	background-color: #5D6E49;
+	text-align: center;
+	font-weight: bold;
+	border: 1px solid #5D6E49;
+	color: #ffffff;
+	font-size: 13px;
+}
+
+table tbody td {
+	color: black;
+	border: 1px solid #dddfe1;
+}
+
+table tbody tr {
+	background-color: #E1E7DA;
+	border: 1px solid;
+}
+
+table tbody tr:nth-child(odd) {
+	background-color: white;
+	border: 1px solid;
+}
+
+table th {
+	padding: 10px;
+	border: 1px solid;
+}
+
+h1 {
+	font-family: Arial;
+	text-align: center;
+}
+
+#headerT {
+	margin-bottom: 30px;
+	margin-top: 10px;
+}
+
+input[type=button], input[type=submit], #searchType, button {
+	cursor: pointer;
+}
+
+.idReadonly {
+	background-color: darkgrey;
+}
