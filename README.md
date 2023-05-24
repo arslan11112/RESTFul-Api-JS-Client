@@ -34,31 +34,3 @@ can be accessed trough that main web page.
 To access JSP files, follow this path -----> "src/main/wwebapp", 
 "index.jsp", "insertFilm.jsp", "updateFilm.jsp" can be found here.
 
-*********************************************************************
-		  	Web Service (called "filmapi.java")
-*********************************************************************
-
-This file is place inside the whole web application project called
-"FilmRestfulApi", in this project we can also find the JavaScript Client
-implementation. 
-
-"filmapi.java" is placed inside "controllers" package following 
-this path ----> "src/main/java".
-
-TO RUN the ResftFul Api simply run the file "filmapi.java". 
-
-		  	Web application (called "FilmRestfulApi")
-        
-In the same project as the Web Service, this project contains JS Client
-composed of two files "ajax-films.js", and "utils-ajax-films.js" under 
-this folders path ---->"src/main/webapp/scripts", there is another
-subfolder under webapp folder called "custom", it contains a CSS file.
-
-Under the webapp folder we can the fidn the main web page for our Web
-Application which is called "index.jsp"
-
-TO RUN the web application simply run the "index.jsp" file and thi will 
-bring up all the films from the database and show them in a table.
-
-
-
